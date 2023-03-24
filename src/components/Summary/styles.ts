@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from "styled-components";
 
 export const SummaryContainer = styled.section`
   width: 100%;
@@ -10,14 +10,22 @@ export const SummaryContainer = styled.section`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -5rem;
-`
+
+  @media (max-width: 450px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 451px) and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+`;
 
 interface SummaryCardProps {
-  variant?: 'green'
+  variant?: "green";
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
-  background-color: ${({ theme }) => theme['gray-600']};
+  background-color: ${({ theme }) => theme["gray-600"]};
   border-radius: 6px;
   padding: 2rem;
 
@@ -25,7 +33,7 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: ${({ theme }) => theme['gray-300']};
+    color: ${({ theme }) => theme["gray-300"]};
   }
 
   strong {
@@ -35,8 +43,8 @@ export const SummaryCard = styled.div<SummaryCardProps>`
   }
 
   ${({ variant }) =>
-    variant === 'green' &&
+    variant === "green" &&
     css`
-      background-color: ${({ theme }) => theme['green-700']};
+      background-color: ${({ theme }) => theme["green-700"]};
     `}
-`
+`;

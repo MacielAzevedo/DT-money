@@ -1,36 +1,20 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Desenvolvimeto de site",
-      "type": "income",
-      "category": "Venda",
-      "price": 14000,
-      "createdAt": "2023-03-23T18:00:56.179Z"
-    },
-    {
-      "id": 2,
-      "description": "Lasanha",
-      "type": "outcome",
-      "category": "Alimentação",
-      "price": 50,
-      "createdAt": "2023-03-23T18:10:56.179Z"
-    },
-    {
       "description": "Desenvolvimento de app",
-      "price": 15000,
-      "category": "venda",
+      "price": 5000,
+      "category": "Venda",
       "type": "income",
-      "createdAt": "2023-03-24T02:27:16.066Z",
-      "id": 3
+      "createdAt": "2023-03-24T11:38:40.438Z",
+      "id": 1
     },
     {
-      "description": "Pizza",
-      "price": 102,
+      "description": "Compras de mercado",
+      "price": 1000,
       "category": "Alimentação",
       "type": "outcome",
-      "createdAt": "2023-03-24T02:49:28.797Z",
-      "id": 4
+      "createdAt": "2023-03-24T11:39:39.059Z",
+      "id": 2
     }
   ]
 }
