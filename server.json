@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-03-23T18:10:56.179Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 15000,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-03-24T02:27:16.066Z",
+      "id": 3
+    },
+    {
+      "description": "Pizza",
+      "price": 102,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-03-24T02:49:28.797Z",
+      "id": 4
     }
   ]
 }
