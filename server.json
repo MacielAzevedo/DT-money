@@ -1,19 +1,19 @@
 {
   "transactions": [
     {
-      "description": "Desenvolvimento de app",
-      "price": 5000,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2023-03-24T11:38:40.438Z",
+      "description": "Ignite",
+      "price": 1890,
+      "category": "Curso",
+      "type": "outcome",
+      "createdAt": "2023-03-24T13:44:07.233Z",
       "id": 1
     },
     {
-      "description": "Compras de mercado",
-      "price": 1000,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2023-03-24T11:39:39.059Z",
+      "description": "Desenvolvimento de app",
+      "price": 3000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-03-24T13:44:40.376Z",
       "id": 2
     }
   ]
